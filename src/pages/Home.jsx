@@ -18,7 +18,7 @@ const Home = () => {
     <main className="px-[5%] mt-10 mb-16 flex-grow">
       <h2 className="titulo text-3xl">Produtos em Destaque</h2>
 
-      <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
+      <section className="grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] gap-6">
         {games.map((game) => (
           <GameCard
             key={game.id}
