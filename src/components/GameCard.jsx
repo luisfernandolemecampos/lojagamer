@@ -12,7 +12,6 @@ const GameCard = ({titulo,preco,imagem}) => {
         </button>      
       </article>
 
-    
 
 
 
